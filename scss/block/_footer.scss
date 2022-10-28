@@ -1,0 +1,185 @@
+
+.footer__inner-title,
+.footer__title {
+  margin-bottom: 16px;
+  font-family: 'Open Sans';
+  color: #fff
+}
+
+#footer {
+  height: 338px;
+  background: #191919
+}
+
+.footer__block {
+  margin-left: 100px;
+  display: flex;
+  padding-top: 56px
+}
+
+.footer__sub-block {
+  margin-right: 50px
+}
+
+.footer__title {
+  max-width: 149px;
+  height: 26px;
+  top: 56px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 130%
+}
+
+.footer__text {
+  max-width: 320px;
+  height: 120px;
+  font-family: 'Open Sans';
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  color: #fff
+}
+
+.footer__inner-block {
+  margin-left: 50px;
+  margin-right: 43px
+}
+
+.footer__inner-title {
+  max-width: 143px;
+  height: 26px;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 130%
+}
+
+.footer__item,
+.footer__sup-item {
+  margin-bottom: 8px
+}
+
+.footer__sup-block {
+  margin-left: 44px
+}
+
+.footer__link {
+  max-width: 87px;
+  height: 24px;
+  font-family: 'Open Sans';
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #fff
+}
+
+.footer__sup-title {
+  max-width: 142px;
+  height: 26px;
+  font-family: 'Open Sans';
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 130%;
+  color: #fff;
+  margin-bottom: 16px
+}
+
+.footer__sup-link {
+  padding-left: 3px;
+  max-width: 90px;
+  height: 34px;
+  font-family: 'Open Sans';
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #fff
+}
+
+.footer__sup-item{
+  width: 120px;
+}
+
+.link-img-1::before {
+  content: "";
+  vertical-align: middle;
+  width: 24px;
+  height: 24px;
+  display: inline-block;
+  background-repeat: no-repeat;
+  background-image: url('../img/telegram-icon.svg');
+}
+
+.link-img-2::before {
+  content: "";
+  vertical-align: middle;
+  width: 24px;
+  height: 24px;
+  display: inline-block;
+  background-repeat: no-repeat;
+  background-image: url('../img/facebook-icon.svg');
+}
+
+.link-img-3::before {
+   content: "";
+   vertical-align: middle;
+   width: 24px;
+  height: 24px;
+  display: inline-block;
+  background-repeat: no-repeat;
+  background-image: url('../img/instagram-icon.svg');
+}
+
+
+@media screen and (max-width:904px) {
+  .footer{
+
+    &__title, &__sup-title, &__inner-title{
+      width: 156px;
+      font-size: 16px;
+    }
+
+    &__text, &__link, &__sup-link {
+      font-size: 13px;
+
+    }
+
+    &__link, &__sup-link {
+      line-height: 20px;
+    }
+    &__block {
+      margin-left: 40px;
+    }
+  }
+
+}
+
+@media screen and (max-width:625px){
+  .footer{
+
+    &__title, &__sup-title, &__inner-title{
+      width: 0;
+      max-width: 140px;
+      font-size: 13px;
+    }
+
+    &__text, &__link, &__sup-link {
+      font-size: 10px;
+
+    }
+
+    &__link, &__sup-link {
+      line-height: 20px;
+    }
+    &__block {
+      margin-left: 20px;
+      margin-right: 20px;
+    }
+    &__sup-block{
+      margin-left: 30px;
+    }
+    &__sup-item{
+      width: 80px;
+    }
+  }
+
+}
